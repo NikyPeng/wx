@@ -1,0 +1,17 @@
+/* components/btnCompont/btn.wxss */
+.btn{
+    width: 100%;
+    height: 80rpx;
+    background-color: #e8e8e8;
+    border-radius: 10rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.btnText{
+    line-height: 80rpx;
+    text-align: center;
+    font-size: 40rpx;
+    color: #666;
+}

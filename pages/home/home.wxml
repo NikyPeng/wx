@@ -1,0 +1,16 @@
+<View class="wx_container">
+    <swiper
+        class="wx_swiper"
+        indicator-dots="{{ true }}"
+        indicator-color="rgba(0,0,0,.6)"
+        indicator-active-color="rgba(255,255,255,.8)"
+        autoplay="{{ true }}}"
+        circular="{{ true }}"
+        >
+        <block wx:for="{{ imgUrls }}" wx:key="{{ index }}">
+            <swiper-item>
+                <image src="{{ item }}" class="slide-image" />
+            </swiper-item>
+        </block>
+    </swiper>
+</View>

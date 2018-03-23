@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/orders/orders",
+    "pages/mine/mine",
+    "pages/index/index"
+  ],
+  "tabBar": {
+    "position": "bottom",
+    "color": "#9b9b9b",
+    "selectedColor": "#025fcb",
+    "backgroundColor": "",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "imgs/common/home_icon.png",
+        "selectedIconPath": "imgs/common/active_home_icon.png"
+      },
+      {
+        "pagePath": "pages/orders/orders",
+        "text": "订单",
+        "iconPath": "imgs/common/order_icon.png",
+        "selectedIconPath": "imgs/common/active_order_icon.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "imgs/common/mine_icon.png",
+        "selectedIconPath": "imgs/common/active_mine_icon.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "牛机网",
+    "navigationBarTextStyle": "#fff"
+  }
+}

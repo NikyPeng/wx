@@ -1,0 +1,9 @@
+.wx_swiper{
+    width: 100%;
+    margin: 0 auto;
+}
+.slide-image{
+    display: block;
+    width: 100%;
+    height: 300rpx;
+}

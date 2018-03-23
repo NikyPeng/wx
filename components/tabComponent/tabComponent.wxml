@@ -1,0 +1,8 @@
+<!--components/tabComponent.wxml-->
+<view class="tabs">
+    <block wx:for="{{ tabs }}" wx:key="{{ item.id }}">
+        <view class="tab {{ tabIndex === item.id ? 'active_tab' : '' }}" data-tab-key="{{ item.id }}" catchtap="_clickTab">
+            <text>{{ item.title }}</text>
+        </view>
+    </block>
+</view>

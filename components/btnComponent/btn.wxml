@@ -1,0 +1,6 @@
+<!--components/btnCompont/btn.wxml-->
+<View class="btn_con">
+    <View class="btn">
+        <Text class="btnText">{{ title || 'Click Me' }}</Text>
+    </View>
+</View>

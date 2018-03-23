@@ -1,0 +1,12 @@
+<view class="wx_container">
+    <tabs
+        tabs="{{ tabs }}"
+        tabIndex="{{ idx }}"
+        bind:clickTabEvent="_clickTab"
+        />
+    <scroll-view
+        class="order_scroll"
+        >
+
+    </scroll-view>
+</view>
