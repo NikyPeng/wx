@@ -1,0 +1,4 @@
+<!--components/transtion/transition.wxml-->
+<view class="wx_transtion animated cardIn">
+    <slot></slot>
+</view>
