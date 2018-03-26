@@ -3,3 +3,25 @@
     height: 100%;
     background-color: #f00;
 }
+.order_content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 80rpx;
+}
+.transtion{
+    width: 100%;
+    height: 100%;
+}
+.list_space{
+    width: 100%;
+    height: 20rpx;
+    background-color: #e8e8e8;
+}
+.order_item_content{
+    height: 90rpx;
+    background-color: #9d9d9d;
+    color: #666666;
+    font-size: 40rpx;
+}

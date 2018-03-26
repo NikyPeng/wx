@@ -1,12 +1,69 @@
-<view class="wx_container">
+<view class="h_container">
     <tabs
         tabs="{{ tabs }}"
         tabIndex="{{ idx }}"
         bind:clickTabEvent="_clickTab"
         />
-    <scroll-view
-        class="order_scroll"
-        >
-
-    </scroll-view>
+    <view class="order_content">
+        <transtion
+            wx:if="{{ idx === 0 }}"
+            class="transtion"
+            >
+            <scroll-view
+                class="transtion"
+                scroll-y
+                bindscrolltoupper="_downLoad"
+                bindscrolltolower="_upLoad"
+                >
+                <block wx:for="{{ data }}" wx:key="{{item.id}}">
+                    <view>
+                        <view class="list_space"></view>
+                        <view class="flex flex_center order_item_content">
+                            <text>{{ item.id + '、' + item.content }}</text>
+                        </view>
+                    </view>
+                </block>
+            </scroll-view>
+        </transtion>
+        <transtion
+            wx:if="{{ idx === 1 }}"
+            class="transtion"
+            >
+            <scroll-view
+                    class="transtion"
+                    scroll-y
+                    bindscrolltoupper="_downLoad"
+                    bindscrolltolower="_upLoad"
+                    >
+                <block wx:for="{{ data }}" wx:key="{{item.id}}">
+                    <view>
+                        <view class="list_space"></view>
+                        <view class="flex flex_center order_item_content">
+                            <text>{{ item.id + '、' + item.content }}</text>
+                        </view>
+                    </view>
+                </block>
+            </scroll-view>
+        </transtion>
+        <transtion
+            wx:if="{{ idx === 2 }}"
+            class="transtion"
+            >
+            <scroll-view
+                    class="transtion"
+                    scroll-y
+                    bindscrolltoupper="_downLoad"
+                    bindscrolltolower="_upLoad"
+                    >
+                <block wx:for="{{ data }}" wx:key="{{item.id}}">
+                    <view>
+                        <view class="list_space"></view>
+                        <view class="flex flex_center order_item_content">
+                            <text>{{ item.id + '、' + item.content }}</text>
+                        </view>
+                    </view>
+                </block>
+            </scroll-view>
+        </transtion>
+    </view>
 </view>

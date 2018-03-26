@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "tabs": "/components/tabComponent/tabComponent"
+    "tabs": "/components/tabComponent/tabComponent",
+    "transtion": "./../../components/transtion/transition"
   }
 }

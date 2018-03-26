@@ -12,3 +12,22 @@
   height: 100%;
   box-sizing: border-box;
 }
+.h_container{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.flex{
+  display: flex;
+  display: -webkit-flex;
+}
+.flex_center{
+  justify-content: center;
+  align-items: center;
+}
+.flex_column{
+  flex-direction: column;
+  -webkit-flex-direction: column;
+}
