@@ -1,4 +1,4 @@
-<View class="wx_container">
+<view class="h_container home_con">
     <swiper
         class="wx_swiper"
         indicator-dots="{{ true }}"
@@ -13,4 +13,31 @@
             </swiper-item>
         </block>
     </swiper>
-</View>
+    <view class="flex flex_around fixed_item">
+        <view class="flex flex_center fixed_block phone_fixed">
+            <image src="./../../imgs/home/phone_icon.png" class="equipment_icon" />
+            <text>手机维修</text>
+        </view>
+        <view class="flex flex_column flex_center fixed_block">
+            <image src="./../../imgs/home/ipad_icon.png" class="equipment_icon" />
+            <text>平板维修</text>
+        </view>
+    </view>
+    <view class="flex flex_around fixed_item">
+        <view class="flex flex_column flex_center fixed_block">
+            <image src="./../../imgs/home/compute_icon.png" class="equipment_icon" />
+            <text>电脑维修</text>
+        </view>
+        <view class="flex flex_column flex_center fixed_block">
+            <image src="./../../imgs/home/digital_icon.png" class="equipment_icon" />
+            <text>数码维修</text>
+        </view>
+        <view class="flex flex_column flex_center fixed_block">
+            <image src="./../../imgs/home/custom_made_icon.png" class="equipment_icon" />
+            <text>定制化服务</text>
+        </view>
+    </view>
+    <view class="flex flex_center home_contact_us" catchtap="_makePhoneCall">
+        <text>电话联系</text>
+    </view>
+</view>
